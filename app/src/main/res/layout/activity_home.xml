@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+
+    <ImageView
+        android:id="@+id/imgVelada"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/velada"
+        android:contentDescription="Cartel oficial de la Velada de Ibai 2027"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La Velada de Ibai 2027"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/txtSubtitle"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El evento del año en directo"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnAccionHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Combates"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_button"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
